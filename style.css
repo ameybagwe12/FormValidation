@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+	color: rgb(200, 34, 159);
+	background-color: #15172b;
+	overflow-x: hidden;
+}
+
+hr{
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+}
+
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.card {
+    background-color: #15172b;
+    border-color: rgb(200, 34, 159);
+    transition:color 0.5s, border-color 0.5s;
+}
+
+.button {
+    background-color: #15172b;
+    border-color: rgb(200, 34, 159);
+    color: rgb(200, 34, 159);
+    transition:color 0.5s, border-color 0.5s;
+}
+
+.card:hover{
+    color: rgb(232, 204, 20);
+    border-color: rgb(232, 204, 20);
+}
+
+.button:hover{
+    color: rgb(232, 204, 20);
+    border-color: rgb(232, 204, 20);
+}
+
+.formDiv{
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    margin-top: 8px;
+}
